@@ -2,6 +2,44 @@
 
 Ce document fournit une documentation complète pour le code Python qui interagit avec l'API Monnit afin de récupérer des données de capteurs. Le code est organisé en sections basées sur des fonctionnalités spécifiques, et chaque section est accompagnée d'exemples pour une meilleure compréhension.
 
+## Installation
+
+Pour utiliser ce projet, suivez ces étapes d'installation :
+
+1. Clonez ce dépôt sur votre machine locale :
+
+    ```bash
+    git clone https://github.com/vinckbooms/20231212_monnit-api.git
+    ```
+
+2. Accédez au répertoire du projet :
+
+    ```bash
+    cd 20231212_monnit-api
+    ```
+
+3. Activez un environnement virtuel (optionnel mais recommandé) :
+
+    ```bash
+    python -m venv venv
+    # Pour Linux/macOS
+    source venv/bin/activate
+    # ou pour Windows
+    venv\Scripts\activate
+    ```
+
+4. Installez les dépendances à partir du fichier `requirements.txt` :
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Vous êtes prêt à utiliser le projet !
+
+   ```bash
+   python votre_script.py
+
+
 ## Initialisation de la Classe Monnit
 
 ```python
